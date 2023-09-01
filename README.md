@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.1.
 
+## How to Run Node Server
+### 1. Type cd TodoServer
+### 2. npm i
+### 3. node index.js
+
+
 ## Backend Server GitHub Repository
 https://github.com/AnujModi13/ToDoList-Kanban
 
