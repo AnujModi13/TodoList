@@ -11,21 +11,21 @@ export class ApiService {
 
 
   getTodo():any{
-  let url='http://localhost:8000/api/todo/';
+  let url='https://todoserver-production-6d87.up.railway.app/api/todo/';
   return this.http.get<ITask>(url);
 }
 
   postTodo(body:any){
-    let url='http://localhost:8000/api/todo/';
+    let url='https://todoserver-production-6d87.up.railway.app/api/todo/';
     return this.http.post<ITask>(url,body,{responseType:'json'});
   }
 
   deleteTask(id:any){
-    let url='http://localhost:8000/api/todo/'+id;
+    let url='https://todoserver-production-6d87.up.railway.app/api/todo/'+id;
     return this.http.delete<ITask>(url);
   }
   updateTask(id:any,body:any){
-    let url='http://localhost:8000/api/todo/'+id;
+    let url='https://todoserver-production-6d87.up.railway.app/api/todo/'+id;
     return this.http.patch<ITask>(url,body,{responseType:'json'});
   }
 }
