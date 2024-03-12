@@ -92,7 +92,7 @@ export class TodoComponent implements OnInit {
   }
 
   drop(event: CdkDragDrop<ITask[]>) {
-    console.log(event.item.data)
+    //console.log(event.item.data)
     if (event.previousContainer === event.container) {
       moveItemInArray(event.container.data, event.previousIndex, event.currentIndex);
     } else {
