@@ -42,7 +42,7 @@ export class TodoComponent implements OnInit {
     let body=this.todoForm.value;
     // console.log(body);
     this.api.postTodo(body).subscribe((data:any)=>{
-      console.log(data);
+      //console.log(data);
     })
 
     this.todoForm.reset();
@@ -53,7 +53,7 @@ export class TodoComponent implements OnInit {
     this.tasks[this.updateId].title=this.todoForm.value.title;
     this.tasks[this.updateId].body=this.todoForm.value.body;
     this.api.updateTask(this.tasks[this.updateId]._id,this.tasks[this.updateId]).subscribe((data:any)=>{
-      console.log("updated succesfully : "+this.tasks[this.updateId]);
+      //console.log("updated succesfully : "+this.tasks[this.updateId]);
     })
     this.isEditEnabled=false;
     this.updateId=undefined;
