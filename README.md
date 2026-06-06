@@ -38,7 +38,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## GUI
 
 ### Demo - https://to-do-list-368e1.web.app/
+
+**Deployed URL:** https://to-do-list-368e1.web.app/
+
 ![Screenshot (177)](https://github.com/AnujModi13/TodoList/assets/98648535/0beded06-7b05-4f36-a88f-e5f6a65c764d)
 ![Screenshot (176)](https://github.com/AnujModi13/TodoList/assets/98648535/6d1a96e5-7eb3-4b84-970a-65c5bb6d86e4)
 ![Screenshot (178)](https://github.com/AnujModi13/TodoList/assets/98648535/2b1c5e80-384a-4ec2-b5ba-d4dd7236f9fa)
-
